@@ -4,7 +4,7 @@ import tensorflow as tf
 
 CATEGORIES=["personX","personY"]
 
-font=cv2.FONT_HERSHEY_SIMPLEX
+font=cv2.FONT_HERSHEY_PLAIN
 
 face_cascade=cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 
